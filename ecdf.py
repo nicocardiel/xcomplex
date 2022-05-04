@@ -22,7 +22,6 @@ def ecdf(data, nleft=0, nright=0):
     y : numpy array
         ECDF values associated to the sorted 'data' array.
     """
-
     x = np.sort(data)
     n = x.size
     ntot = n + nleft + nright
